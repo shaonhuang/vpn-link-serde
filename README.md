@@ -24,15 +24,13 @@ A comprehensive Rust library for parsing and serializing VPN proxy protocol link
 - **Trojan** (`trojan://`) - Full TLS and XTLS support
 - **Hysteria2** (`hysteria2://`) - Complete configuration support
 
-各协议的**链接格式、解析规则与组成规范**见 [doc/protocols.md](doc/protocols.md)，并与 SIP002、Project V、XTLS、Trojan、Hysteria2 官方文档交叉对照。
-
 ## Installation
 
 Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-vpn-link-serde = "0.1.0"
+vpn-link-serde = "0.1.5"
 ```
 
 ## Usage
